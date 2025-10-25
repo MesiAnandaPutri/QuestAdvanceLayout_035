@@ -135,3 +135,16 @@ fun UiKedua(modifier: Modifier = Modifier) {
             }
 
             Spacer(modifier = Modifier.height(32.dp))
+
+            Text(
+                text = "© 2025 Mesi Ananda Putri",
+                color = Color.White.copy(alpha = 0.4f),
+                fontSize = 11.sp,
+                fontWeight = FontWeight.Light,
+                modifier = Modifier
+                    .align(Alignment.CenterHorizontally)
+                    .padding(bottom = 16.dp)
+            )
+        }
+    }
+}
