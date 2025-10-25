@@ -148,3 +148,16 @@ fun UiKedua(modifier: Modifier = Modifier) {
         }
     }
 }
+
+@Composable
+fun SocialMediaIcon(
+    @DrawableRes imageRes: Int
+) {
+    Box(
+        modifier = Modifier
+            .size(42.dp)
+            .clip(CircleShape)
+            .background(Color(0xFF2D2D44))
+            .border(2.dp, Color(0xFF2D2D44), CircleShape),
+        contentAlignment = Alignment.Center
+    ) {
