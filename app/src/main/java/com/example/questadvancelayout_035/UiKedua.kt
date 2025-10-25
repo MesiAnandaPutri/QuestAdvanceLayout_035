@@ -171,3 +171,24 @@ fun SocialMediaIcon(
         )
     }
 }
+
+@Composable
+fun MenuItemCard(
+    icon: androidx.compose.ui.graphics.vector.ImageVector,
+    title: String
+) {
+    Card(
+        modifier = Modifier
+            .fillMaxWidth()
+            .height(60.dp),
+        colors = CardDefaults.cardColors(
+            containerColor = Color(0xFF2D2D44)
+        ),
+        shape = RoundedCornerShape(12.dp)
+    ) {
+        Row(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(horizontal = 16.dp),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
