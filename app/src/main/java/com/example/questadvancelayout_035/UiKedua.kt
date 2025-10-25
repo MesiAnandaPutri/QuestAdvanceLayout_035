@@ -59,3 +59,15 @@ fun UiKedua(modifier: Modifier = Modifier) {
             }
 
             Spacer(modifier = Modifier.height(16.dp))
+
+            Row(
+                horizontalArrangement = Arrangement.spacedBy(12.dp),
+                modifier = Modifier.padding(vertical = 8.dp)
+            ) {
+                SocialMediaIcon(imageRes = R.drawable.whatsapp)
+                SocialMediaIcon(imageRes = R.drawable.instagram)
+                SocialMediaIcon(imageRes = R.drawable.gmail)
+                SocialMediaIcon(imageRes = R.drawable.linkedin)
+            }
+
+            Spacer(modifier = Modifier.height(8.dp))
