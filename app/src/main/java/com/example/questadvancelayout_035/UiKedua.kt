@@ -71,3 +71,10 @@ fun UiKedua(modifier: Modifier = Modifier) {
             }
 
             Spacer(modifier = Modifier.height(8.dp))
+
+            Text(
+                text = "Mesi Ananda Putri",
+                fontSize = 24.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.White
+            )
