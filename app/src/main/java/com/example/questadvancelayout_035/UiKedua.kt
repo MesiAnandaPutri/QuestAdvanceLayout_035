@@ -78,3 +78,11 @@ fun UiKedua(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold,
                 color = Color.White
             )
+
+            Text(
+                text = "@Nandzz",
+                fontSize = 14.sp,
+                color = Color.Gray
+            )
+
+            Spacer(modifier = Modifier.height(4.dp))
