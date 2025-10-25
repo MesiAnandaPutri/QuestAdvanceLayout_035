@@ -36,3 +36,11 @@ fun UiKedua(modifier: Modifier = Modifier) {
             .fillMaxSize()
             .background(Color.Black)
     ) {
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(horizontal = 24.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            Spacer(modifier = Modifier.height(80.dp))
+
