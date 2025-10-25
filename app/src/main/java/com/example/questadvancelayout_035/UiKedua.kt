@@ -161,3 +161,13 @@ fun SocialMediaIcon(
             .border(2.dp, Color(0xFF2D2D44), CircleShape),
         contentAlignment = Alignment.Center
     ) {
+        Image(
+            painter = painterResource(id = imageRes),
+            contentDescription = "Social Media Icon",
+            modifier = Modifier
+                .size(26.dp)
+                .clip(CircleShape),
+            contentScale = ContentScale.Fit
+        )
+    }
+}
