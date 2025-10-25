@@ -44,3 +44,9 @@ fun UiKedua(modifier: Modifier = Modifier) {
         ) {
             Spacer(modifier = Modifier.height(80.dp))
 
+            Box(
+                modifier = Modifier
+                    .size(100.dp)
+                    .clip(CircleShape),
+                contentAlignment = Alignment.Center
+            ) {
