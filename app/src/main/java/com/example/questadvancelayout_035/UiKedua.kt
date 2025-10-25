@@ -86,3 +86,11 @@ fun UiKedua(modifier: Modifier = Modifier) {
             )
 
             Spacer(modifier = Modifier.height(4.dp))
+
+            Text(
+                text = "Back End Developer",
+                fontSize = 16.sp,
+                color = Color.White
+            )
+
+            Spacer(modifier = Modifier.height(32.dp))
